@@ -1,0 +1,8 @@
+<div class="container">
+  <!-- input search -->
+  <app-input-field (onSearch)="onSearch($event)"></app-input-field>
+  <!-- video result -->
+  <app-video [data]="data"></app-video>
+</div>
+<!-- video detail -->
+<router-outlet></router-outlet>
